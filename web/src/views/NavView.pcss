@@ -1,0 +1,23 @@
+@import "../pcss/utils.pcss";
+
+.NavView{
+
+	flex: 1;
+	display: grid;
+	grid-template-rows: repeat(auto-fill, 3rem);	
+	grid-row-gap: 1rem;
+	padding-top: 3rem;
+
+	a{ 
+		@mixin typo-h6{};
+		font-weight: 400;
+		display: flex;
+		padding-left: 2rem;
+		align-items: center;
+		color: #fff;
+
+		&.sel{
+			background: rgba(255,255,255,.1);
+		}
+	}
+}

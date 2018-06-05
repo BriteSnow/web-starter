@@ -1,0 +1,22 @@
+
+# Simple build configuration files used by the custom build scripts in scripts/build.ts
+
+webBundles:
+  - name: lib
+    entries: web/src/lib-bundle.js
+    dist: web/js/lib-bundle.js
+  - name: app
+    entries: web/src/**/*.ts
+    tsconfig: web/tsconfig.json
+    dist: web/js/app-bundle.js
+    rollupOptions:
+      globals:
+        d3: window.d3
+        mvdom: window.mvdom
+        handlebars: window.Handlebars        
+  - name: css
+    entries: web/src/**/*.pcss
+    dist: web/css/all-bundle.css
+  - name: tmpl
+    entries: web/src/**/*.tmpl
+    dist: web/js/templates.js

@@ -1,0 +1,30 @@
+# Ignore mac extraneous files
+.DS_Store
+
+
+# Ignore node extraneous files
+npm-debug.log
+node_modules/
+
+# yes, this is a long story, but ignore for now. 
+package-lock.json
+
+# rollup typescript2 output
+.rpt2_cache/
+
+# By convention, prevent all root folders and filenames starting with "~".
+~*
+
+
+# prevent the output files to be checked in 
+web/js/*.js
+web/css/*.css
+
+# prevent the .map
+*.map
+
+# Ignore .vscode
+.vscode/
+
+# Ignore dist
+dist/
