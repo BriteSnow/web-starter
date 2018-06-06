@@ -8,7 +8,6 @@ Core philosophies are:
 
 And finally, the DOM is not the enemy for building scalable Web, and Mobile application, how we use (or not use it) is. 
 
-
 ### Technology Approach
 
 - **TypeScript**: An amazing JavaScript superset providing a flexible and robust typing system the JavaScript way. 
@@ -22,6 +21,11 @@ And finally, the DOM is not the enemy for building scalable Web, and Mobile appl
     - (IE 11 could be added with some significant polyfill and css override)
 
 This is a no ~~WebPack~~, ~~Gulp~~, ~~Angular~~  zone. More on the why later, but in short, simple scale better. 
+
+### Docs
+
+- [Doc - CSS Structure and Best Practices](doc/css.md)
+
 
 ### Build, Run, Watch
 
