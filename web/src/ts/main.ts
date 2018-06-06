@@ -1,6 +1,6 @@
 import { on, display, first } from "mvdom";
 import { route } from "./route";
-import { MainView } from "view/MainView";
+import { MainView } from "views/MainView";
 import { get } from "ts/ajax";
 
 
